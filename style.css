@@ -2,7 +2,19 @@ body {
     background-color: #1A1A1A;
 }
 
-img {
+#icon {
     display: block;
     margin: 40px auto;
+}
+
+#app-store {
+    display: block;
+    margin: 100px auto;
+
+    /* generated from itunes-link-maker */
+    overflow: hidden;
+    background: url(app-store.svg) no-repeat;
+    width: 135px;
+    height: 40px;
+    background-size: contain;
 }
