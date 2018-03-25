@@ -1,20 +1,26 @@
 body {
-    background-color: #1A1A1A;
+  background-color: #1A1A1A;
+}
+
+#container {
+  width: 100%;
 }
 
 #icon {
-    display: block;
-    margin: 40px auto;
+  display: block;
+  margin: 60px auto;
+  width: 50%;
+  max-width: 300px;
 }
 
 #app-store {
-    display: block;
-    margin: 100px auto;
+  display: block;
+  margin: 100px auto;
 
-    /* generated from itunes-link-maker */
-    overflow: hidden;
-    background: url(app-store.svg) no-repeat;
-    width: 135px;
-    height: 40px;
-    background-size: contain;
+  /* generated from itunes-link-maker */
+  overflow: hidden;
+  background: url(app-store.svg) no-repeat;
+  width: 135px;
+  height: 40px;
+  background-size: contain;
 }
