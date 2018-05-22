@@ -30,9 +30,9 @@ a {
 
   /* generated from itunes-link-maker */
   overflow: hidden;
-  background: url(app-store.svg) no-repeat;
-  width: 135px;
-  height: 40px;
+  background: url(app-store.svg) no-repeat center;
+  width: 270px;
+  height: 80px;
   background-size: contain;
 }
 
