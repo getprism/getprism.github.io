@@ -1,1 +1,3 @@
 .idea
+img/screenshots/*.png
+!img/screenshots/*_framed.png
