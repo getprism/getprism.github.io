@@ -22,7 +22,7 @@ nav {
 }
 
 section {
-  padding: 1.5em 0;
+  padding: 2.5em 0;
 }
 
 section:nth-child(even) {
@@ -30,7 +30,7 @@ section:nth-child(even) {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 720px;
 }
 
 #icon {
@@ -46,14 +46,27 @@ section:nth-child(even) {
   /* generated from itunes-link-maker */
   overflow: hidden;
   background: url(../img/app-store.svg) no-repeat center;
-  width: 134px;
-  height: 40px;
+  width: 200px;
+  height: 60px;
   background-size: contain;
 }
 
+.highlight {
+  background: #8E5AF7;
+}
 .tag-line {
   text-align: center;
   font-style: italic;
+}
+
+#features-main h3 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#features-extra h1 {
+  text-align: center;
+  margin-bottom: 1.5em;
 }
 
 .feature-text {
