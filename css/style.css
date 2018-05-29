@@ -12,20 +12,15 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   color: white;
-}
-
-h1 {
-  font-size: 2em;
-  margin: 0;
+  font-weight: 700;
 }
 
 nav {
   background: black;
-  padding: 1.5em 0;
 }
 
 nav a {
-  /*font-size: 1.2em;*/
+  font-size: 1.2em;
   color: rgba(175, 175, 175, 0.97);
   font-weight: 600;
 }
