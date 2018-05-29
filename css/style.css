@@ -1,10 +1,13 @@
 body {
   background: #1A1A1A;
+}
+
+body, a {
   color: #666666;
 }
 
-a {
-  text-decoration: none;
+a:hover {
+  color: #8E5AF7;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,6 +22,12 @@ h1 {
 nav {
   background: black;
   padding: 1.5em 0;
+}
+
+nav a {
+  /*font-size: 1.2em;*/
+  color: rgba(175, 175, 175, 0.97);
+  font-weight: 600;
 }
 
 section {
@@ -39,13 +48,15 @@ section:nth-child(even) {
   margin-right: 0.5em;
 }
 
-#app-store {
+.app-store-badge {
   display: block;
-  margin: 10px auto;
+  /*margin: 1.5em 0;*/
+  /*margin: 10px auto;*/
 
   /* generated from itunes-link-maker */
   overflow: hidden;
   background: url(../img/app-store.svg) no-repeat center;
+  /*background-position: left;*/
   width: 200px;
   height: 60px;
   background-size: contain;
@@ -53,7 +64,9 @@ section:nth-child(even) {
 
 .highlight {
   background: #8E5AF7;
+  color: white;
 }
+
 .tag-line {
   text-align: center;
   font-style: italic;
@@ -65,11 +78,8 @@ section:nth-child(even) {
 }
 
 #features-extra h1 {
-  text-align: center;
-  margin-bottom: 1.5em;
-}
-
-.feature-text {
+  /*text-align: center;*/
+  /*margin-bottom: 1.5em;*/
 }
 
 .feature-image {
