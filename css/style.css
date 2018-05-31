@@ -1,8 +1,9 @@
 body {
   background: #1A1A1A;
+  font-size: 1.2em;
 }
 
-body, a {
+body, a, .list-item {
   color: #666666;
 }
 
@@ -20,7 +21,6 @@ nav {
 }
 
 nav a {
-  font-size: 1.2em;
   color: rgba(175, 175, 175, 0.97);
   font-weight: 600;
 }
@@ -31,6 +31,10 @@ section {
 
 section:nth-child(even) {
   background: #141414;
+}
+
+ul {
+  color: #8E5AF7;
 }
 
 .container {
