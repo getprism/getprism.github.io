@@ -26,7 +26,7 @@ nav a {
 }
 
 section {
-  padding: 2.5em 0;
+  padding: 2em 0;
 }
 
 section:nth-child(even) {
@@ -72,8 +72,8 @@ section:nth-child(even) {
   margin-bottom: 1em;
 }
 
-#features-extra h1 {
-  /*text-align: center;*/
+#features-extra h2 {
+  text-align: center;
   /*margin-bottom: 1.5em;*/
 }
 
