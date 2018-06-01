@@ -1,13 +1,17 @@
 body {
-  background: #1A1A1A;
+  background: #141414;
   font-size: 1.2em;
+}
+
+section:nth-child(even) {
+  background: #1A1A1A;
 }
 
 body, a, .list-item {
   color: #666666;
 }
 
-a:hover {
+a:hover, ul, .nav-content {
   color: #8E5AF7;
 }
 
@@ -17,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav {
-  background: black;
+  /*background: black;*/
 }
 
 nav a {
@@ -25,16 +29,12 @@ nav a {
   font-weight: 600;
 }
 
+.nav-content {
+  font-weight: bold;
+}
+
 section {
-  padding: 2em 0;
-}
-
-section:nth-child(even) {
-  background: #141414;
-}
-
-ul {
-  color: #8E5AF7;
+  padding: 2.5em 0;
 }
 
 .container {
@@ -66,19 +66,9 @@ ul {
   color: white;
 }
 
-.tag-line {
-  text-align: center;
-  font-style: italic;
-}
-
 #features-main h3 {
   text-align: center;
   margin-bottom: 1em;
-}
-
-#features-extra h2 {
-  text-align: center;
-  /*margin-bottom: 1.5em;*/
 }
 
 .feature-image {
