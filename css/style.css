@@ -7,11 +7,11 @@ section:nth-child(even) {
   background: #1A1A1A;
 }
 
-body, a, .list-item {
+body, .list-item {
   color: #666666;
 }
 
-a:hover, ul, .nav-content {
+a:hover, .btn-link:hover, ul, .nav-content {
   color: #8E5AF7;
 }
 
@@ -20,12 +20,16 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+a, .btn-link {
+  /*color: rgba(175, 175, 175, 0.97);*/
+  color: white;
+}
+
 nav {
   /*background: black;*/
 }
 
 nav a {
-  color: rgba(175, 175, 175, 0.97);
   font-weight: 600;
 }
 
@@ -82,3 +86,24 @@ footer {
 footer a {
   padding: 0 10px 0 10px;
 }
+
+/* Bootstrap element overrides */
+
+a.nav-link.active, .btn-primary {
+  background: #8E5AF7 !important;
+  border-color: #8E5AF7 !important;
+}
+
+.card {
+  background: none;
+}
+
+.card-body {
+  background: #141414;
+}
+
+.card-header {
+  color: white;
+  background: #242424;
+}
+
