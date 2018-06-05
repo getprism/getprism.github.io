@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-filter-played</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-filter-played">
+            <rect id="Rectangle" fill="#95D26B" x="0" y="0" width="32" height="32" rx="8"></rect>
+            <path d="M9.77058049,7.0949429 L25.5737463,15.1933229 C25.8710684,15.3458301 26.0588526,15.6573858 26.0588526,15.9981704 C26.0588526,16.338955 25.8710684,16.6505107 25.5737463,16.8030179 L9.77058049,24.9015779 C9.49840443,25.0410044 9.17520617,25.0260583 8.91638494,24.8620762 C8.65756371,24.6980942 8.50001794,24.408454 8.5,24.0965729 L8.5,7.8997679 C8.50007878,7.58791881 8.65764895,7.29833591 8.91645961,7.13439723 C9.17527027,6.97045855 9.49843238,6.95553075 9.77058049,7.0949429 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
