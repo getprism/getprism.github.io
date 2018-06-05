@@ -7,7 +7,7 @@ section:nth-child(even) {
   background: #1A1A1A;
 }
 
-body, .list-item {
+body, nav a, .list-item {
   color: #666666;
 }
 
@@ -46,7 +46,7 @@ section {
 }
 
 #icon {
-  width: 40px;
+  width: 2.5em;
   display: inline-block;
   margin-right: 0.5em;
 }
@@ -87,6 +87,24 @@ footer a {
   padding: 0 10px 0 10px;
 }
 
+#filter-group {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  /*white-space: nowrap;*/
+}
+
+#filter-group > div {
+  padding: 0 0.2rem;
+}
+
+#filter-group .card {
+  height: 100%;
+}
+
+.filter-card-content, #filter-group .card-body {
+  height: 100%;
+}
+
 /* Bootstrap element overrides */
 
 a.nav-link.active, .btn-primary {
@@ -94,12 +112,16 @@ a.nav-link.active, .btn-primary {
   border-color: #8E5AF7 !important;
 }
 
+.badge-primary {
+  background: #51a660;
+}
+
 .card {
   background: none;
 }
 
 .card-body {
-  background: #141414;
+  background: black;
 }
 
 .card-header {
