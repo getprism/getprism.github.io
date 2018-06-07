@@ -11,7 +11,7 @@ body, .list-item {
   color: #666666;
 }
 
-a:hover, .btn-link:hover, ul {
+a:hover, .btn-link:hover, #features-extra ul {
   color: #8E5AF7;
 }
 
