@@ -45,10 +45,10 @@ section {
   max-width: 720px;
 }
 
-#icon {
-  width: 2.5em;
+#app-icon {
+  height: 2.2em;
   display: inline-block;
-  margin-right: 0.5em;
+  margin-right: 0.4em;
 }
 
 .app-store-badge {
@@ -85,14 +85,6 @@ section {
   background: #242424;
   padding: 0.1rem 0.4rem;
   border-radius: 3px;
-}
-
-footer {
-  text-align: center;
-}
-
-footer a {
-  padding: 0 10px 0 10px;
 }
 
 #filter-group {
