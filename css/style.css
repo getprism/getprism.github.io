@@ -131,6 +131,14 @@ footer a:hover {
   text-decoration: none;
 }
 
+/* Screenshots */
+
+@media (min-width: 768px) {
+  #screenshot-main {
+    content: url("../img/screenshots/ipad-player_framed.png");
+  }
+}
+
 /* Bootstrap element overrides */
 
 a.nav-link.active, .btn-primary {

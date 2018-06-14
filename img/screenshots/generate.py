@@ -9,11 +9,17 @@ BASE_DIR = os.path.join(
 )
 
 SCREENSHOTS = [
-    ('iPhone 8-00_player_dark.png', 'player.png'),
-    ('iPhone 8-01_libraries.png', 'access.png'),
-    ('iPhone 8-02_filters.png', 'filters.png'),
-    ('iPhone 8-03_display.png', 'arrange.png'),
-    ('iPhone 8-04_list.png', 'list.png'),
+    ('iPhone 8-00_player_dark.png', 'black/iphone-player.png'),
+    ('iPhone 8-01_libraries.png', 'silver/iphone-access.png'),
+    ('iPhone 8-02_filters.png', 'silver/iphone-filters.png'),
+    ('iPhone 8-03_display.png', 'silver/iphone-arrange.png'),
+    ('iPhone 8-04_list.png', 'silver/iphone-list.png'),
+
+    ('iPad Pro (9.7-inch)-00_player_dark.png', 'black/ipad-player.png'),
+#    ('iPad Pro (9.7-inch)-01_libraries.png', 'silver/ipad-access.png'),
+#    ('iPad Pro (9.7-inch)-02_filters.png', 'silver/ipad-filters.png'),
+#    ('iPad Pro (9.7-inch)-03_display.png', 'silver/ipad-arrange.png'),
+#    ('iPad Pro (9.7-inch)-04_list.png', 'silver/ipad-list.png'),
 ]
 
 
