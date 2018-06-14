@@ -29,12 +29,16 @@ nav {
   /*background: black;*/
 }
 
-nav a {
-  font-weight: 600;
+#nav-content {
 }
 
-.nav-content {
-  font-weight: bold;
+#nav-content a {
+  font-weight: 600;
+  padding: 0 0.2rem;
+}
+
+#nav-content span {
+  font-size: 0.9rem;
 }
 
 section {
