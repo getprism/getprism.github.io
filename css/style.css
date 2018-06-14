@@ -55,6 +55,15 @@ section {
   margin-right: 0.4em;
 }
 
+.btn-beta {
+  color: #ffe484;
+  border-color: #ffe484;
+}
+
+.btn-beta:hover {
+  background: #ffe484;
+}
+
 .app-store-badge {
   display: block;
   /*margin: 1.5em 0;*/

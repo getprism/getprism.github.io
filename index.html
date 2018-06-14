@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <title>Prism | A truly versatile music app for iOS</title>
+  <title>Prism | A highly versatile music app for iOS</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -21,7 +21,7 @@
       <div id="nav-content" class="col d-flex align-items-center justify-content-center justify-content-sm-end">
         <a href="#access">Access</a>
         <span>→</span>
-        <a href="#filter">Filter</a>
+        <a href="#refine">Refine</a>
         <span>→</span>
         <a href="#arrange">Arrange</a>
         <span>→</span>
@@ -39,20 +39,20 @@
           <img class="feature-image" src="img/screenshots/player_framed.png" alt="">
         </div>
         <div class="col-sm order-first order-sm-last text-center text-sm-left">
-          <h2 class="mb-3">A truly versatile music app for iOS</h2>
+          <h2 class="mb-3">A highly versatile music app for iOS</h2>
           <div class="row justify-content-center">
             <div class="d-sm-none col-9">
               <img class="feature-image my-4" src="img/screenshots/player_framed.png" alt="">
             </div>
           </div>
-          <p>In a world dominated by streaming services, Prism was created for those who prefer to keep their own music collection, but are dissatisfied with the inflexible nature of conventional music apps.</p>
-          <p>Using a handful of powerful features, Prism lets you quickly access, refine and arrange your music to create interesting dynamic playlists.</p>
+          <p>In a world dominated by streaming services, <em>Prism</em> was created for those who prefer to keep their own music collection, but are dissatisfied with the inflexible nature of conventional music apps.</p>
+          <p>Using a handful of simple features, <em>Prism</em> lets you quickly access, refine and arrange your music to create interesting dynamic playlists.</p>
           <div class="row d-none d-sm-flex align-items-center">
             <div class="col-auto pr-0">
               <a href="#" class="app-store-badge" style="background-position: left;"></a>
             </div>
             <div class="col pl-0">
-              <a href="" target="_blank" class="btn btn-outline-warning">Get beta access</a>
+              <a href="" target="_blank" class="btn btn-beta btn-outline-warning">Get beta access</a>
             </div>
           </div>
         </div>
@@ -65,7 +65,7 @@
         </div>
         <div class="row text-center mt-3">
           <div class="col">
-            <a href="" target="_blank" class="btn btn-outline-warning">Get beta access</a>
+            <a href="" target="_blank" class="btn btn-beta btn-outline-warning">Get beta access</a>
           </div>
         </div>
       </div>
@@ -89,7 +89,7 @@
               <img class="feature-image my-4" src="img/screenshots/access_framed.png" alt="">
             </div>
           </div>
-          <p>Prism can access music already on your device, or you can add a free Plex account to stream your music from anywhere in the world.</p>
+          <p><em>Prism</em> can access music already on your device, or you can add a free Plex account to stream your music from anywhere in the world.</p>
           <div class="accordion" id="access-detail">
             <div class="card">
               <div class="card-header" id="about-plex">
@@ -101,7 +101,7 @@
               </div>
               <div id="about-plex-content" class="collapse" aria-labelledby="about-plex" data-parent="#access-detail">
                 <div class="card-body">
-                  <p class="card-text">Plex is a media streaming application that runs on your computer. Prism takes advantage of its music streaming capabilities, but Plex is capable of video streaming and more.</p>
+                  <p class="card-text">Plex is a media streaming application that runs on your computer. <em>Prism</em> takes advantage of its music streaming capabilities, but Plex is capable of video streaming and more.</p>
                   <a href="https://www.plex.tv" target="_blank" class="btn btn-primary">Find out more</a>
                 </div>
               </div>
@@ -115,7 +115,7 @@
     </div>
   </section>
 
-  <section id="filter">
+  <section id="refine">
     <div class="container">
       <div class="row align-items-center justify-content-center">
         <div class="d-none d-sm-block col-4">
@@ -126,7 +126,7 @@
             <div class="col-auto">
               <div class="d-flex">
                 <img class="" src="img/icon-filter.svg" alt="">
-                <h1 class="d-inline-block my-0 ml-2">Filter</h1>
+                <h1 class="d-inline-block my-0 ml-2">Refine</h1>
               </div>
             </div>
           </div>
@@ -135,7 +135,7 @@
               <img class="feature-image my-4" src="img/screenshots/filters_framed.png" alt="">
             </div>
           </div>
-          <p>Configure what songs you want to include in your playlist by adding one or more filters.</p>
+          <p>Refine the songs you want to include in your playlist by adding one or more filters.</p>
           <p>The example shown selects loved songs tagged with <span class="tag">Ambient</span>, <span class="tag">Electronic</span> or <span class="tag">Post Rock</span>.</p>
           <div id="filter-group" class="row flex-nowrap text-center mb-3">
             <div class="col-5">
@@ -210,10 +210,10 @@
             </div>
 
           </div>
-          <div class="align-middle">
+          <span>
             <span class="badge badge-success mr-1">Tip</span>
-            All filters can be inverted, reversing their effect.
-          </div>
+            All filters can be <img src="img/icon-filter-invert.svg" alt="" class="pb-1 mr-1">Inverted, reversing their effect.
+          </span>
         </div>
       </div>
     </div>
@@ -237,7 +237,11 @@
             </div>
           </div>
           <p>Configure how you want to view your playlist.</p>
-          <span>Display an artist’s discography as a list of songs or albums; sort artists, albums or songs alphabetically or by popularity and more.</span>
+          <p>Display an artist’s discography as a list of songs or albums; sort artists, albums or songs alphabetically or by popularity and more.</p>
+          <span>
+            <span class="badge badge-success mr-1">Tip</span>
+            The <img src="img/icon-shuffle.svg" alt="" class="pb-1 mr-1">Shuffle option randomises your playlist by artist or album. When played, songs will be queued in the order in which they appear on the album or artist.
+          </span>
         </div>
         <div class="d-none d-sm-block col-sm-4">
           <img class="feature-image" src="img/screenshots/arrange_framed.png" alt="">
@@ -266,8 +270,8 @@
               <img class="feature-image my-4" src="img/screenshots/list_framed.png" alt="">
             </div>
           </div>
-          <p>Once you’ve created your dynamic playlist, the only thing left to do is to play its contents.</p>
-          <span>Tap the universal Play button to queue songs using the filters and arrangement you’ve configured.</span>
+          <p>Once you’ve created your dynamic playlist, the only thing left to do is to play it.</p>
+          <span class="align">Tap the universal <img src="img/icon-play-small.svg" alt="" class="pb-1 mr-1">Play button to queue songs using the filters and arrangement you’ve configured.</span>
         </div>
       </div>
     </div>
@@ -282,6 +286,7 @@
             <li><span class="list-item">Choose between beautiful light and dark themes, or switch automatically</span></li>
             <li><span class="list-item">Change the default arrangement when the app launches</span></li>
             <li><span class="list-item">First class iPad support</span></li>
+            <li><span class="list-item">Import playlists from iTunes and Plex libraries<span class="badge badge-warning ml-2">Coming Soon</span></span></li>
             <!--<li><span class="list-item"></span></li>-->
           </ul>
         </div>
@@ -307,7 +312,7 @@
   </section>
 </div>
 <footer>
-  <div class="container py-5">
+  <div class="container py-4">
     © 2018 Lachlan Charlick
   </div>
 </footer>
