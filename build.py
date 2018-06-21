@@ -1,3 +1,4 @@
+import datetime
 import os.path
 import glob
 import markdown2
@@ -51,4 +52,4 @@ with open(f('releases.template.html'), 'r') as template_source, \
         })
     # releases = [os.path.splitext(os.path.basename(fname))[0] for fname in release_files]
     template = jinja2.Template(template_source.read())
-    output.write(template.render(releases=releases))
+    output.write(template.render(releases=releases, now=datetime.datetime.utcnow()))

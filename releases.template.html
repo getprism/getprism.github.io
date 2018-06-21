@@ -20,16 +20,19 @@
       <h1 class="">Releases</h1>
     </div>
   </div>
-    {% for release in releases %}
-      <div class="row pt-5">
-        <div class="col">
-          <h3 class="">v{{ release.version }} <span class="badge badge-{{ release.location }}">{{ release.location }}</span> </h3>
-          <div>
-            {{ release.content }}
-          </div>
+  {% for release in releases %}
+    <div class="row pt-5">
+      <div class="col">
+        <h3 class="">v{{ release.version }} <span class="badge badge-{{ release.location }}">{{ release.location }}</span> </h3>
+        <div>
+          {{ release.content }}
         </div>
       </div>
-    {% endfor %}
+    </div>
+  {% endfor %}
+  <footer class="text-center">
+    <em>Updated {{ now.strftime('%b %e \'%y at %H:%M UTC') }}</em>
+  </footer>
 </div>
 </body>
 </html>
