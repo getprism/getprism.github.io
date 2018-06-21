@@ -19,10 +19,12 @@ with open(f('releases.template.html'), 'r') as template_source, \
         open(f('releases.html'), 'w') as output:
     release_files = glob.glob(os.path.join(BASE_DIR, 'releases', '*.md'))
     releases = []
-    for release_file in release_files:
+    for release_file in sorted(release_files, reverse=True):
         file_name = os.path.splitext(os.path.basename(release_file))[0]
+        location = file_name[6:]
         releases.append({
-            'version': file_name,
+            'version': file_name[:5],
+            'location': location,
             'content': markdown2.markdown(open(release_file).read()),
         })
     # releases = [os.path.splitext(os.path.basename(fname))[0] for fname in release_files]
