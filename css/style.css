@@ -7,11 +7,11 @@ section:nth-child(even) {
   background: #1A1A1A;
 }
 
-body, .list-item {
-  color: #666666;
+body, .list-item, .text-muted, .text-muted a {
+  color: #666666 !important;
 }
 
-a:hover, .btn-link:hover, #features-extra ul {
+a:hover, .btn-link:hover, ul {
   color: #8E5AF7;
 }
 
@@ -27,6 +27,10 @@ a, .btn-link {
 
 nav {
   /*background: black;*/
+}
+
+h1 small {
+  font-size: 0.5em;
 }
 
 #nav-content {
