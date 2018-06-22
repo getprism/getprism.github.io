@@ -14,7 +14,7 @@
   <div class="row py-5">
     <div class="col text-center">
       <a href="/">
-        <img id="app-icon" src="static/img/icon.svg" alt="Prism icon" class="w-25">
+        <img id="app-icon" src="static/img/icon.svg" alt="Prism icon">
       </a>
     </div>
   </div>
@@ -24,10 +24,13 @@
     </div>
   </div>
   {% for release in releases %}
-    <div class="row py-4">
-      <div class="col">
-        <h3 class="">v{{ release.version }} <span class="badge badge-{{ release.location }}">{{ release.location }}</span> </h3>
-        <div>
+    <div class="card mb-3">
+      <div class="card-header d-flex">
+        <h5 class="mb-0 mr-2 align-items-center">v{{ release.version }} </h5>
+        <span class="badge badge-{{ release.location }}">{{ release.location }}</span>
+      </div>
+      <div>
+        <div class="card-body">
           {{ release.content }}
         </div>
       </div>
