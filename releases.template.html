@@ -23,6 +23,17 @@
       <h1 class="">Releases</h1>
     </div>
   </div>
+  <div class="card mb-3">
+    <div class="card-header d-flex">
+      <h5 class="mb-0 mr-2 align-items-center">Planned <small class="text-muted"><em>(In rough order of priority)</em></small></h5>
+    </div>
+    <div>
+      <div class="card-body">
+        {{ planned }}
+      </div>
+    </div>
+  </div>
+
   {% for release in releases %}
     <div class="card mb-3">
       <div class="card-header d-flex">

@@ -1,0 +1,3 @@
+- Plex download support
+- iCloud sync
+- Tag editing

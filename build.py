@@ -40,6 +40,7 @@ with open(f('index.template.html'), 'r') as template_source, \
     output.write(template.render(version=version))
 
 with open(f('releases.template.html'), 'r') as template_source, \
+        open(f(os.path.join('releases', 'planned', 'planned.md')), 'r') as planned, \
         open(f('releases.html'), 'w') as output:
     releases = []
     for release_file in release_files():
@@ -52,4 +53,6 @@ with open(f('releases.template.html'), 'r') as template_source, \
         })
     # releases = [os.path.splitext(os.path.basename(fname))[0] for fname in release_files]
     template = jinja2.Template(template_source.read())
-    output.write(template.render(releases=releases, now=datetime.datetime.utcnow()))
+    output.write(template.render(releases=releases,
+                                 planned=markdown2.markdown(planned.read()),
+                                 now=datetime.datetime.utcnow()))
