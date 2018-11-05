@@ -1,3 +1,4 @@
+- Support for saving groups of filters
 - iCloud sync
 - Tag editing
 - Apple Watch support
