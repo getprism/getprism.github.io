@@ -70,3 +70,9 @@ a.nav-link.active, .btn-primary {
   color: white;
   background: #242424;
 }
+
+#header-icon {
+  width: 7em;
+  /*min-width: 7em;*/
+  /*max-width: 20em;*/
+}
