@@ -35,8 +35,6 @@ with open(f('index.template.html'), 'r') as template_source, \
         open(f('index.html'), 'w') as output:
     template = jinja2.Template(template_source.read())
     version = release_version(current_release(release_files()))
-    if version[-2:] == '.0':
-        version = version[:-2]
     output.write(template.render(version=version))
 
 with open(f('releases.template.html'), 'r') as template_source, \

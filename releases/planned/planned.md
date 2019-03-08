@@ -1,4 +1,4 @@
-- Support for saving groups of filters
+- Audiobook support
 - iCloud sync
 - Tag editing
 - Apple Watch support
