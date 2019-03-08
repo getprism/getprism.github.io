@@ -4,7 +4,7 @@ body {
 }
 
 body, .list-item, .text-muted, .text-muted a {
-  color: #666666 !important;
+  color: #BBBBBB !important;
 }
 
 a:hover, .btn-link:hover, ul {
