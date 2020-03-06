@@ -1,4 +1,0 @@
-- Audiobook support
-- iCloud sync
-- Tag editing
-- Apple Watch support
